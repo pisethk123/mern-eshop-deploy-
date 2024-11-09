@@ -1,0 +1,27 @@
+{
+  "name": "mern-eshop",
+  "version": "1.0.0",
+  "main": "./server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "npm install --prefix ./client && npm run build --prefix ./client && npn install"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "react-confetti": "^6.1.0",
+    "stripe": "^17.3.0"
+  },
+  "description": ""
+}
